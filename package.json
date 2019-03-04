@@ -1,0 +1,38 @@
+{
+  "name": "dictionaryapi",
+  "version": "1.0.0",
+  "description": "REST Api using NodeJs and MongoDB",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/app.js",
+    "build": "babel src --out-dir dist",
+    "serve": "node dist/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/c-hariharasudhan/dictionaryapi.git"
+  },
+  "keywords": [
+    "Nodejs",
+    "MongoDb"
+  ],
+  "author": "Hariharasudhan Chandramurthy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/c-hariharasudhan/dictionaryapi/issues"
+  },
+  "homepage": "https://github.com/c-hariharasudhan/dictionaryapi#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.17"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.4",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.3.4",
+    "nodemon": "^1.18.10"
+  }
+}
